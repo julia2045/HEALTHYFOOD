@@ -1,0 +1,161 @@
+.formContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: baseline, 54;
+}
+.registerUseForm {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 135px 40px 0;
+}
+
+.bottomImage {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: -1;
+}
+.bottomImage2 {
+  position: absolute;
+  right: 10px;
+  bottom: -10px;
+  z-index: -1;
+}
+.pratoImage {
+  position: absolute;
+  bottom: 20px;
+  left: 250px;
+  width: 80%;
+  height: auto;
+  z-index: -1;
+}
+.pratoImageMore {
+  position: absolute;
+  bottom: 300px;
+  left: 200px;
+  width: 200%;
+  height: auto;
+  z-index: -1;
+}
+.registerDataForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+  align-items: center;
+}
+
+.formSectionTitle {
+  font-size: 24px;
+  font-weight: bold;
+  color: #064f47fe;
+  font-family: "poppins", sans-serif;
+}
+
+.submitButton {
+  background-color: #064f47fe;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.formSection {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.selectField {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.selectField label {
+  margin-bottom: 5px;
+  color: #064f47c7;
+}
+
+.selectField select {
+  padding: 8px;
+  border: 1px solid #064f47c7;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.select {
+  padding: 8px;
+  border: 2px solid #064f47c7;
+  border-radius: 20px;
+  font-size: 12px;
+  color: #064f47c7;
+}
+
+@media (min-width: 768px) {
+  .registerUseForm {
+    padding: 150px 40px 0;
+  }
+
+  .formSectionTitle {
+    font-size: 36px;
+    font-weight: bold;
+    color: #064f47fe;
+    font-family: "poppins", sans-serif;
+  }
+  .pratoImage {
+    position: absolute;
+    top: 150px;
+    left: 500px;
+  }
+  .select {
+    padding: 10px 20px;
+    font-size: 20px;
+  }
+  .bottomImage2 {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: -1;
+  }
+
+  .pratoImageMore {
+    position: absolute;
+    bottom: 200px;
+    left: 450px;
+    width: 200%;
+    height: auto;
+    z-index: -1;
+  }
+}
+@media (min-width: 1280px) {
+  .formSectionTitle {
+    font-size: 36px;
+    font-weight: bold;
+    color: #064f47fe;
+    font-family: "poppins", sans-serif;
+  }
+  .pratoImage {
+    position: absolute;
+    bottom: 10px;
+    width: 70%;
+    left: 900px;
+  }
+  .bottomImage {
+    left: 0;
+  }
+  .bottomImage2 {
+    bottom: 0px;
+  }
+  .pratoImageMore {
+    position: absolute;
+    bottom: 200px;
+    left: 1000px;
+    width: 70%;
+    height: auto;
+    z-index: -1;
+  }
+}

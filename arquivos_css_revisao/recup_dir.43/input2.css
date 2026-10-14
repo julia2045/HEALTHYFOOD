@@ -1,0 +1,37 @@
+.inputField{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.inputField label {
+    margin-bottom: 5px;
+    color: #064f47c7;
+    font-weight: bold;
+}
+
+.inputField::placeholder {
+    color: #064f47c7;
+    font-size: 6px;
+}
+.inputField input {
+    padding: 8px;
+    border: 2px solid #064f47c7;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.inputField input:hover, 
+.inputField input:focus {
+    padding: 8px;
+    border: 2px solid #0d6f64c7;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+

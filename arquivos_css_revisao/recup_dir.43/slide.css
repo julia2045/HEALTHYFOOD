@@ -1,0 +1,48 @@
+.slide{
+    width: 100%;
+    overflow: hidden;
+}
+
+.slideTrack{
+    display: flex;
+    transition: transform 0.5s ease;
+    align-items: stretch;
+}
+.element {
+  min-width: 100%;
+}
+
+.controls{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+
+.dots {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.dots button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ccc;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.dots button.active {
+  width: 25px;
+  border-radius: 10px;
+  background: green
+}
+
+img{
+    max-width: 100%;
+    border-radius: 10px;
+}

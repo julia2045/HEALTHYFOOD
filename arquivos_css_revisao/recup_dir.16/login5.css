@@ -1,0 +1,44 @@
+.loginContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    background-color: rgb(246, 246, 246);
+}
+
+.loginContainer img{
+    max-width: 100%;
+    border-radius: 10px 0 0 10px;
+}
+.buttonsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.navLogin{
+    color: #064f46;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.navLogin:hover{
+    color: #000000;
+}
+
+@media(min-width:768px){
+    .loginContainer{
+        flex-direction: row;
+        gap: 40px;
+    }   
+
+    .loginContainer img{
+        max-width: 100%;
+        border-radius: 10px 0 0 10px;
+    } 
+
+}

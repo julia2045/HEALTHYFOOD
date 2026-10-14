@@ -1,0 +1,48 @@
+.registerUserForm{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px ;
+    justify-content: center;
+}
+
+.formSectionTitle{
+    font-size: 24px;
+    font-weight: bold;
+    color: #064f47fe;
+    font-family: 'Arial', sans-serif;
+}
+
+.submitButton {
+    background-color: #064f47fe;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.formSection {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.selectField {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.selectField label {
+    margin-bottom: 5px;
+    color: #064f47c7;
+}
+
+.selectField select {
+    padding: 8px;
+    border: 1px solid #064f47c7;
+    border-radius: 4px;
+    font-size: 16px;
+}

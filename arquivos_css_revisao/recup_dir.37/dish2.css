@@ -1,0 +1,57 @@
+.HeaderDish{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    gap: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.imgProfile{
+    height: 24px;
+    border-radius: 50%;
+}
+
+.restaurant{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.icon{
+    height: 20px;
+}
+
+.descriptionDish{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+}
+
+.nameDish{
+    font-size: 25px;
+}
+
+.informationsNecessaries{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+}
+
+.textDish{
+    color:#6b6b70
+}
+
+.adress{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.backInformations{
+    padding: 10px;
+    background-color: #ececec;
+    border-radius: 10px;
+}

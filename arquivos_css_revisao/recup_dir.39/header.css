@@ -1,0 +1,33 @@
+.containerHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+    background-color: rgb(244, 244, 244);
+}
+
+.containerHeader img{
+    width: 30px;
+}
+
+
+
+.infoHeader p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #064e3b;
+}
+
+.infoHeader button{
+    border: none;
+    color: #064e3b;
+    font-size: 14px;
+}
+.infoHeader{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+

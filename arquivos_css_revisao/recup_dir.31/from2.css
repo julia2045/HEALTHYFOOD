@@ -1,0 +1,179 @@
+/* ===== Containers de formulário ===== */
+/* Propriedades comuns aos dois containers ficam numa classe base */
+.formContainerBase {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0;
+}
+
+.formContainerInptus{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.formContainer {
+  min-height: calc(100vh - 105px);
+  overflow: hidden;
+}
+
+.formContainerUser {
+  max-height: calc(100vh - 105px);
+  overflow-y: auto;
+}
+
+.registerUseForm {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 135px 40px 0;
+}
+
+/* ===== Imagens decorativas ===== */
+.decorativeImage {
+  position: absolute;
+  z-index: -1;
+}
+
+.bottomImage {
+  right: 0;
+  top: 0;
+}
+
+.bottomImage2 {
+  right: 10px;
+  bottom: -50px;
+}
+
+.dishImage {
+  height: auto;
+}
+
+.pratoImage {
+  bottom: 20px;
+  left: 250px;
+  width: 150%;
+}
+
+.pratoImageMore {
+  bottom: 300px;
+  left: 200px;
+  width: 200%;
+}
+
+/* ===== Formulário / conteúdo ===== */
+.registerDataForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+}
+
+.formSectionTitle {
+  font-size: 24px;
+  font-weight: bold;
+  color: #064f47fe;
+  font-family: "poppins", sans-serif;
+}
+
+.submitButton {
+  background-color: #064f47fe;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.formSection {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.selectField {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.selectField label {
+  margin-bottom: 5px;
+  color: #064f47c7;
+}
+
+.selectField select {
+  padding: 8px;
+  border: 1px solid #064f47c7;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.select {
+  padding: 8px;
+  border: 2px solid #064f47c7;
+  border-radius: 20px;
+  font-size: 12px;
+  color: #064f47c7;
+}
+
+/* ===== Responsivo ===== */
+@media (min-width: 768px) {
+  .formContainer {
+    min-height: calc(100vh - 125px);
+  }
+
+  .registerUseForm {
+    padding: 150px 40px 0;
+  }
+
+  .formSectionTitle {
+    font-size: 36px;
+  }
+
+  .pratoImage {
+    top: 300px;
+    left: 500px;
+  }
+
+  .select {
+    padding: 10px 20px;
+    font-size: 20px;
+  }
+
+  .bottomImage2 {
+    left: 0;
+    bottom: -150px;
+  }
+
+  .pratoImageMore {
+    bottom: 200px;
+    left: 450px;
+    width: 200%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .pratoImage {
+    top: 70px;
+    width: 70%;
+    left: 900px;
+  }
+
+  .bottomImage {
+    left: 0;
+  }
+
+  .bottomImage2 {
+    bottom: -150px;
+  }
+
+  .pratoImageMore {
+    bottom: 200px;
+    left: 1000px;
+    width: 70%;
+  }
+}
